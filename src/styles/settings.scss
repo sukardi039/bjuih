@@ -1,0 +1,31 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+.top-banner{
+    background-color: rgba(112,0,5,1);
+    display: flex;
+    width:100vw;
+    padding: 5px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.banner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:100vw;
+padding: 2px;
+background-color: rgba(143, 0, 11, 1);
+}
+.banner-cloud{
+    justify-content: right;
+    padding: 0px;
+    margin: 0px;
+}

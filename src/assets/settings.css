@@ -1,0 +1,119 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+.base-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 100vw; */
+  padding: 0px;
+  margin: 0px;
+  background-color: grey;
+}
+.top-banner {
+  background-color: rgba(112, 0, 5, 1);
+  display: flex;
+  /* width: 100vw; */
+  height: 3vh;
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+}
+.top-filler {
+  width: 60%;
+}
+.set-homepage {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.set-homepage span {
+  padding-right: 20px;
+}
+.set-language {
+  display: flex;
+  align-items: center;
+}
+.set-language span {
+  padding-right: 20px;
+  margin: 0px;
+}
+.set-language-icon {
+  font-size: 12px;
+  align-items: center;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 2px;
+  background-color: rgba(143, 0, 11, 1);
+}
+.banner-filler {
+  width: 10%;
+}
+.main-logo {
+  justify-content: center;
+  padding-left: 5rem;
+}
+.banner-cloud {
+  justify-content: right;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-bar {
+  background-color: whitesmoke;
+  height: 5vh;
+  align-content: center;
+}
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 15px;
+}
+.menu-item {
+  font-size: 15px;
+}
+.menu-link {
+  color: black;
+  padding: 3px;
+  margin: 0px;
+  height: 5vh;
+}
+.menu-link:hover {
+  background-color: rgba(143, 0, 11, 1);
+  color: white;
+}
+.editButton {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+.editForm {
+  background-color: beige;
+  width: 50vw;
+  padding: 20px;
+  border: 2px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.editForm div {
+  padding: 10px;
+}
+.edit-label {
+  font-weight: bolder;
+}
+.page-container {
+  background-color: pink;
+}
